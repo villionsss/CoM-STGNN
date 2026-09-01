@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+.idea/
+
+# Local datasets and generated graph/features.
+*.csv
+*.npy
+*.npz
+*.pt
+*.pth
+
+# Keep only the explicitly curated New York inputs under data/.
+data/*
+!data/
+!data/x_train_taxi.npy
+!data/y_train_taxi.npy
+!data/x_val_taxi.npy
+!data/y_val_taxi.npy
+!data/x_test_taxi.npy
+!data/y_test_taxi.npy
+!data/x_train_bike.npy
+!data/y_train_bike.npy
+!data/x_val_bike.npy
+!data/y_val_bike.npy
+!data/x_test_bike.npy
+!data/y_test_bike.npy
+!data/sa_Lk.pt
+!data/od_bike_Lk.pt
+!data/od_taxi_Lk.pt
+!data/od_builtupenv_Lk.pt
+
+# Training outputs and experiment artifacts.
+save/
+*.log
+*.zip
+*.rar
